@@ -1,0 +1,138 @@
+<!-- technology.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YoungEinsteins - Technology</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f5f5f5;
+        color: #333;
+      }
+
+      header {
+        text-align: center;
+        padding: 30px;
+        background-color: #3498db;
+        color: #fff;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #0c4870;
+        padding: 10px 0;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #3498db;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        z-index: 1;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        position: relative;
+      }
+
+      nav a:hover {
+        background-color: #3498db;
+      }
+
+      .dropdown-content a {
+        color: #fff;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+      }
+
+      main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+
+      h1,
+      h2 {
+        color: #3498db;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+
+      footer {
+        text-align: center;
+        padding: 5px;
+        background-color: #3498db;
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>YoungEinsteins</h1>
+    </header>
+    <nav>
+      <div class="dropdown">
+        <a href="#">Technology</a>
+        <div class="dropdown-content">
+          <a href="#">Programming</a>
+          <a href="#">Data Science</a>
+          <a href="#">Networking</a>
+        </div>
+      </div>
+      <a href="science.html">Science</a>
+      <a href="engineering.html">Engineering</a>
+      <a href="mathematics.html">Mathematics</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+    <main>
+      <h2 style="color: #f759da">Technology Section</h2>
+      <p>
+        Explore the latest advancements in technology. Learn about programming,
+        data science, and networking.
+      </p>
+      <!-- Sub-sections -->
+      <h2>Programming</h2>
+      <p>Discover the art and science of programming. Learn about coding languages, algorithms, and software development.</p>
+
+      <h2>Data Science</h2>
+      <p>Dive into the world of data science. Explore data analysis, machine learning, and data-driven insights.</p>
+
+      <h2>Networking</h2>
+      <p>Understand the fundamentals of networking. Explore topics such as network protocols, security, and infrastructure.</p>
+    </main>
+    <footer>
+      <p>&copy; 2024 TAMUHACK. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
