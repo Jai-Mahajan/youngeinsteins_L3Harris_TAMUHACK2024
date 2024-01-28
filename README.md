@@ -1,5 +1,5 @@
 #Challenge Description
-L3Harris Technologies is the Trusted Disruptor in the Aerospace & Defense industry. With a focus on meeting mission-critical needs, L3Harris delivers end-to-end technology solutions connecting space, air, land, sea, and cyber domains in the interest of national security. Recognizing the importance of skilled and passionate engineering teams, L3Harris aims to stimulate lasting interest in STEM (Science, Technology, Engineering, and Mathematics) careers among school-aged children.
+L3Harris Technologies is a Trusted Disruptor in the Aerospace & Defense industry. With a focus on meeting mission-critical needs, L3Harris delivers end-to-end technology solutions connecting space, air, land, sea, and cyber domains in the interest of national security. Recognizing the importance of skilled and passionate engineering teams, L3Harris aims to stimulate lasting interest in STEM (Science, Technology, Engineering, and Mathematics) careers among school-aged children.
 
 #Challenge Objective
 Develop a user experience that will stimulate lasting interest in and preparation for STEM careers for individuals under 12 years of age.
